@@ -65,12 +65,7 @@ function Slider1() {
           </div>
         </a>
       </div>
-            {/* <div className='flex flex-col items-center'>
-              <img src={image} alt={title} />
-              <h2 className='text-2xl font-bold my-6'>{id}</h2>
-              <h3 className='text-xl'>{title}</h3>
-              <p>{random}</p>
-            </div> */}
+
             <button
               className='text-6xl border-2 border-black'
               onClick={() => nextSliderHandler(id)}
